@@ -52,14 +52,15 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+ height: auto;
   background-color: #997;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 
