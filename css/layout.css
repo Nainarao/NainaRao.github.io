@@ -448,7 +448,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 6px; }
+#portfolio-wrapper .columns { margin-bottom: 0px }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
