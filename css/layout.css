@@ -893,6 +893,17 @@ ul#nav li.current a { color: #F06000; }
   margin-bottom: 10px;
 }
 
+.more a{
+  color: #fff;
+}
+
+.more > a > .link{
+  color: #33291f;
+  font: 15px/20px 'librebaskerville-italic', serif;
+  margin: 0;
+  padding-top: 10px;
+}
+
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
     font-size: 36px;
