@@ -46,7 +46,7 @@ body { background: #0f0f0f; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
   max-width: 200px;
-   background: #fff;
+   background: #f0f0f0;
    overflow: hidden;
    position: relative;
 
@@ -121,11 +121,6 @@ body { background: #0f0f0f; }
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;
-	-moz-opacity: 1;
-	filter:alpha(opacity=100);
-}
-.portfolio-item:hover .link-icon {
-   opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
