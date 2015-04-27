@@ -800,7 +800,7 @@
                      </div>
                </div>
             </div>
-         </div> --> 
+         </div>  -->
       </div> 
    </div>
    </section>
@@ -834,7 +834,13 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="http://formspree.io/naina.rao14@gmail.com" method="post" id="contactForm" name="contactForm">
+               <form name="contact" action="http://formspree.io/naina.rao14@gmail.com" method="POST" id="contact-form">
+                <input class="field" name="name" placeholder="Name" required>
+                <input class="field" name="email" type="email" placeholder="Email" required>
+                <textarea class="field" id="message" name="message" placeholder="Message" required></textarea>
+                <input id="submit" name="submit" type="submit" value="SUBMIT" class="button">
+               </form>
+               <!-- <form action="http://formspree.io/naina.rao14@gmail.com" method="post" id="contactForm" name="contactForm">
                <fieldset>
 
                   <div>
@@ -862,7 +868,7 @@
                   </div>
 
                </fieldset>
-               </form> <!-- Form End -->
+               </form> <!-- Form End --> -->
 
                <!-- contact-success -->
                <div id="message-success">
