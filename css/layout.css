@@ -34,7 +34,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/hopkins.jpg) no-repeat top center;
+   background: #0f0f0f url(../images/blogbg.jpg) no-repeat top center;
+   background-position: 0px -200px;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -53,7 +54,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -79,7 +80,7 @@ header .banner-text h3 a {
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
+   border-color: #fff;
    border-color: rgba(150, 150, 150, .1);
 }
 
@@ -96,12 +97,12 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #fff; }
 
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   bottom: 90px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -118,7 +119,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #fff; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
