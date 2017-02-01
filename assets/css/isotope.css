@@ -24,6 +24,12 @@
       translate3d(15px, 0px, 0px) !important;
 }
 
+@media only screen and (max-width: 460px) {
+
+   .isotope-item { width: auto; }
+
+}
+
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1;

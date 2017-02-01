@@ -1758,6 +1758,13 @@
    .row .offset-11   { margin-left: 0%; }
 }
 
+@media only screen and (max-width: 460px) {
+
+   .row { width: auto; }
+
+}
+
+
 .carousel {
 	display: none;
 }
