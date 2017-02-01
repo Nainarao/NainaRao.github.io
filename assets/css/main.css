@@ -1623,6 +1623,7 @@
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
    text-align: center;
+   color:rgba(144, 0, 0, 0.64);
 }
 
 #resume h3 {
