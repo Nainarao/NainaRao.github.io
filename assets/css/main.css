@@ -1435,7 +1435,10 @@
       max-height: 150px;
    }
    #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
+   #resume .main-col { 
+   		padding-right: 10px;
+   		padding-left: 10px; 
+   	}
    #resume h3, #resume .info { text-align: center; }
    #resume h3, #resume .date { text-align: center; }
 
